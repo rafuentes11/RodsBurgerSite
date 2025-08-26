@@ -35,7 +35,7 @@ dd{
 }
 
 main {
-    background-color: beige;
+    background-color: hsl(60, 56%, 91%);
 }
 img{
     display: block;
@@ -45,5 +45,7 @@ footer {
     background-color: rgb(214, 120, 13);
 }
 h3{
+    text-shadow: 3px 3px 5px hsl(180, 4%, 34%), -3px -3px 5px hsl(180, 4%, 34%);
+    border-radius: 10px;
     text-align: center;
 }
