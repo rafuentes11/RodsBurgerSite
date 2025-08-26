@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="application.css">
+    <title>Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Job application</h1>
+        <a href="Rod'sBurger.html">Return to Main Page</a><br>
+        <hr>
+    </header>
+    <main>
+        <form action="applicationSubmitted.html" method="POST">
+
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" placeholder="John" required /><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" placeholder="Doe" required /><br>
+
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" /><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email@gmail.com" /><br>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /><br>
+
+            <label for="gender">Gender:</label><br>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" value="male" name="gender" />
+            <label for="female">Female</label>
+            <input type="radio" id="female" value="female" name="gender" /><br>
+
+            <label for="resume">Resume</label>
+            <input type="file" id="resume" accept=".pdf,.doc,.docx" /><br>
+
+            <input type="submit">
+        </form>
+    </main>
+
+
+</body>
+
+</html>

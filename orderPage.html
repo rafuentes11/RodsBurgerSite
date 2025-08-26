@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place an Order</title>
+</head>
+
+<body>
+    <h1>Place an Order</h1>
+    <form action="orderConfirmed.html" method="POST">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Name Here" /><br>
+
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" id="phoneNumber" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/><br>
+
+        <label for="order">Order</label>
+        <select>
+            <option>Classic Burger</option>
+            <option>Mushroom Burger</option>
+            <option>BBQ Burger</option>
+            <option>Veggie Burger</option>
+        </select><br>
+
+        <label for="customOrder">Customoize Order</label><br>
+        <textarea id="customOrder" rows="3" cols="30"></textarea><br>
+
+        <label for="payment">Choose payment</label>
+        <select>
+            <option>Visa</option>
+            <option>Cash</option>
+            <option>Paypal</option>
+        </select><br>
+
+        <input type="submit"/>
+    </form>
+</body>
+
+</html>
